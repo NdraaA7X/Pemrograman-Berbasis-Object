@@ -4,7 +4,8 @@ public class Bike {
     private String brand;
     private int speed;
     private int gear = 1;
-    private final int[] GEAR_SPEED_LIMITS = {5, 10, 25, 30, 40, 60};
+
+    private final int[] GEAR_SPEED_LIMITS = {8, 15, 22, 35, 45, 65};
 
     public void setBrand(String brandName) {
         brand = brandName;

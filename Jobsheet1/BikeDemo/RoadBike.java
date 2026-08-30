@@ -1,7 +1,7 @@
 package Jobsheet1.BikeDemo;
 
 public class RoadBike extends Bike {
-    private int  tireWidth;
+    private int tireWidth;
 
     public void setTireWidth(int width) {
         tireWidth = width;
@@ -10,7 +10,7 @@ public class RoadBike extends Bike {
     @Override
     public void printInfo() {
         super.printInfo();
-        System.out.println("Tire width : " + tireWidth + " mm");
-        System.out.println("Bike Type : Road Bike");
+        System.out.println("Tire Width : " + tireWidth + " mm");
+        System.out.println("Bike Type  : Road Bike");
     }
 }
