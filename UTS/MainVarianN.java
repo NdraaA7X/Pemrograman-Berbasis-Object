@@ -10,12 +10,15 @@ public class MainVarianN {
 
         Mahasiswa m1 = new MahasiswaReguler("2341720001", "Lestari", 20);
         m1.setDosenWali(wali);
-
+        
         Mahasiswa m2 = new MahasiswaBeasiswa("2341720002", "Usman", 24, 50);
         m2.setDosenWali(wali);
-
+        
         Mahasiswa m3 = new MahasiswaReguler("2341720003", "Anugrah", 22);
         m3.setDosenWali(wali);
+        
+        Mahasiswa m = new MahasiswaBeasiswa("2341720899", "Mentari", 20, 25);
+        System.out.println("UKT Mentari: " + m.hitungUKT());
 
         BagianKeuangan bk = new BagianKeuangan("Bagian Keuangan");
         bk.cetakTagihan(m1);
