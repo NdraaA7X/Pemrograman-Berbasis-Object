@@ -1,4 +1,4 @@
-package id.ac.polinema;
+package id.ac.polinema.frontend;
 
     import javax.swing.JFrame;
     import javax.swing.JLabel;
